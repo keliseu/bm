@@ -9,7 +9,7 @@ class FontTest1 extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         Text(
-          'Normal Nfont',
+          'AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz1234567890.`([-=;',
           style: TextStyle(
             fontFamily: 'Ndot',
             fontSize: 48,

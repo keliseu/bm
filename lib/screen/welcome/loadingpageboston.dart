@@ -49,7 +49,7 @@ class _LoadingBosState extends State<LoadingBos> {
               child: Text(
                 'Loading city...',
                 style: TextStyle(
-                  fontSize: 24,
+                  fontSize: 36,
                   fontFamily: 'Ndot',
                   fontWeight: FontWeight.w400,
                   color: Colors.black,

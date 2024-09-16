@@ -1,7 +1,6 @@
 import 'package:bm/cities/gbos.dart';
 import 'package:bm/main.dart';
 import 'package:bm/setup-2.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/material.dart';
 
 

@@ -13,11 +13,14 @@ dependencies:
 
   cupertino_icons: ^1.0.6
   flutter_map: ^6.1.0
+  http: ^1.2.2
+  open_route_service: ^1.2.6
   flutter_map_cancellable_tile_provider: any
   flutter_map_location_marker: any
   permission_handler: ^11.3.1
   android_intent_plus: ^5.1.0
-  google_fonts: any
+  flutter_map_geojson: ^1.0.8
+  font_awesome_flutter: any
   material_floating_search_bar_2: any
   latlong2: any
   shared_preferences: ^2.0.8
@@ -35,7 +38,22 @@ flutter:
   assets:
     - assets/images/boston.png
     - assets/images/nyc.png
+    - assets/images/dd.png
+    - assets/images/mbta/routes/Red.png
+    - assets/images/mbta/routes/Blue.png
+    - assets/images/mbta/routes/Silver.png
+    - assets/images/mbta/routes/Orange.png
+    - assets/images/icns/mbta/cr.png
+    - assets/images/icns/mbta/subway.png
+    - assets/images/icns/mbta/bus.png
+    - assets/images/icns/mbta/ferry.png
+    - assets/images/icns/mbta/i.png
+    - assets/images/icns/mbta/tr.png
     - assets/images/auck.png
+    - data/us/massachusetts/greater_boston/mbta/rpt/mbta_stations.json
+    - assets/images/MBTA_LOGO.png
+    - data/us/massachusetts/greater_boston/mbta/rpt/mbtartl.json
+
 
 
   fonts:

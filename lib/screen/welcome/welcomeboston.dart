@@ -13,14 +13,18 @@ class _WelcomeBostonState extends State<WelcomeBoston> {
   void initState() {
     super.initState();
     // Set up the delayed navigation
-    Future.delayed(const Duration(seconds: 10), () {
+    Future.delayed(const Duration(seconds: 4), () {
       Navigator.of(context).pushReplacement(
-        MaterialPageRoute(builder: (context) => bostonMAPAPP()),
+        SlideRoute(page: bostonMAPAPP()),
       );
     });
   }
 
+
+
+
   @override
+
   Widget build(BuildContext context) {
     return Container(
       decoration: const BoxDecoration(
@@ -39,13 +43,13 @@ class _WelcomeBostonState extends State<WelcomeBoston> {
           ],
         ),
       ),
-      child: Scaffold(
+      child: const Scaffold(
         body: Center(
           child: Padding(
-            padding: const EdgeInsets.all(16.0),
+            padding: EdgeInsets.all(16.0),
             child: Text(
               'Welcome to Boston',
-              style: const TextStyle(
+              style: TextStyle(
                 fontSize: 48,
                 fontFamily: 'Ndot',
                 fontWeight: FontWeight.w400,
@@ -58,3 +62,30 @@ class _WelcomeBostonState extends State<WelcomeBoston> {
       ),
     );
   }}
+
+
+class SlideRoute extends PageRouteBuilder {
+  final Widget page;
+  SlideRoute({required this.page})
+      : super(
+    pageBuilder: (
+        BuildContext context,
+        Animation<double> animation,
+        Animation<double> secondaryAnimation,
+        ) =>
+    page,
+    transitionsBuilder: (
+        BuildContext context,
+        Animation<double> animation,
+        Animation<double> secondaryAnimation,
+        Widget child,
+        ) =>
+        SlideTransition(
+          position: Tween<Offset>(
+            begin: const Offset(1, 0),
+            end: Offset.zero,
+          ).animate(animation),
+          child: child,
+        ),
+  );
+}
