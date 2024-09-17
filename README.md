@@ -1,4 +1,5 @@
-# bm - ultimate map
+![](https://files.catbox.moe/97zdb6.png)
+# bm maps
 
 ![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) 
@@ -20,13 +21,35 @@ bm (bowel-map) is a navigation app showing you where the nearest publically acce
 
 bm is a science-engineering project created by Christopher Morales Soriano (@kelisi; @keliseu) in 2024. 
 
-I made created this app so that it is easier to find places to do bowel movements and other things like that in densely-populated areas.
+The purpose of this app is to provide everyone access to public services like restrooms and reliable public transit information.
 
-# Cities 
-Cities avaliable at the moment:
-- Boston (+ Inner Core Suburbs) Done ~90% [self-researched]
-- New York City (Thanks to ...)
+# Locations 
+
+### Cities avaliable at the moment:
+
+### US🇺🇸
+#### Massachusetts
+- Boston (+ Inner Core Suburbs)
+#### New York
+- New York City (Thanks to  [got2gonyc's Theodora Siegel](https://www.got2gonyc.com/about-1) )
+-----
+### NZ🇳🇿
+#### Auckland Region
 - Auckland
+
+------
+### Cities proposed:
+
+### CA🇨🇦
+- Toronto (proposed)
+- Montreal (proposed)
+### SV🇸🇻
+- San Salvador (proposed)
+
+### TW 🇹🇼
+- Taipei (proposed)
+- Kaohsiung (proposed)
+
 
 Missing your city? Request a city in our app and we'll get to it!
 
@@ -36,9 +59,9 @@ Missing your city? Request a city in our app and we'll get to it!
 If requesting a city, knowing where bathrooms are can always help. Send a couple you know from yours at: contribute@kelisi.wtf
 
 ##### Remember, bm will **ALWAYS** be free from ads and paywalls. 
-Though, you can always support bm by supporting us via Cash App
-
-(All proceeds will go to things like servers, domains, etc.).
+Though, you can always support bm by supporting me via [Cash App](https://cash.app/$chsoriano)
 
 
 # Building
+####
+### TBA
